@@ -59,6 +59,15 @@ ul li {
     grid-template-rows: 1fr 1fr;
 }
 
+.header img {
+    width: 24px;
+}
+
+#logo {
+    width: 42px;
+    border-radius: 24px;
+}
+
 .main-content {
     display: grid;
     grid-template-columns: 4fr 1fr;
