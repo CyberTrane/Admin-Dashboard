@@ -97,14 +97,21 @@ ul li {
 .header3 {
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+    /* grid-template-rows: auto auto; */
+    justify-content: start;
     align-items: center;
+    align-content: center;
+    column-gap: 16px;
 }
 
 .header3 .logo {
     width: 64px;
     border-radius: 36px;
     grid-row: 1 / 3;
+}
+
+.header4 {
+    
 }
 
 .main-content {
